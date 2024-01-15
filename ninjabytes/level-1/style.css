@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(138, 176, 210, 0.176);
+background-repeat:no-repeat;
+    background-image: linear-gradient(rgba(11, 11, 235, 0.877),rgba(194, 152, 152, 0.816)),url(images/door.jpg);
+    background-position:center;
+    background-size: cover; 
+    backdrop-filter: blur(6px);
+    margin-top:20%;
+    margin-left:40%;
+    position: relative;
+    margin-bottom: 20%;
+
+}
+.box{
+    background-color: antiquewhite;
+    background-image:linear-gradient(rgba(7, 7, 120, 0.877),rgba(161, 23, 241, 0.354)),url(images/favicon.jpg );
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    font-size: 150%;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 10px 5px 20px rgb(103, 103, 199);
+    border:1px solid whitesmoke;
+    padding: 20px;
+}
+.box2{
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    display: inline-flex;
+
+}
+
+.box2 .l{
+    float:left;
+    clear: none;
+    position:relative;
+}
+
+#submit{
+    background-color: rgba(240, 248, 255, 0.579);
+    width:40%;
+    height: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:green;
+    font-size: large;
+    width:50%;
+    border:2px solid antiquewhite ;
+    border-radius: 10px;
+}
+#submit:hover{
+
+    color:rgb(15, 244, 244);
+    text-shadow: 2px 1px 2px black;
+    background-color: rgba(241, 244, 47, 0.222);
+}
+#signup{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(147, 50, 232, 0.915);
+    font-size: large;
+    border-color: white;
+    background-color: rgba(240, 248, 255, 0.245);
+}
+#signup:hover{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(232, 15, 37, 0.697);
+    font-size: larger;
+    border-color: white;
+    background-color: rgba(151, 188, 220, 0.383);
+}
+h1{
+    color:rgba(161, 245, 4, 0.822);
+    text-shadow: 2px 3px 5px rgba(165, 230, 24, 0.898);
+}
+label{
+    color: rgba(7, 231, 247, 0.982);
+    
+    text-shadow: 2px 3px 1px rgba(175, 230, 24, 0.449);
+}
+#in{
+    background-color: rgba(146, 196, 240, 0.924);
+    border: none;
+    border-radius: 10px 10px 90px 50px;
+    color: rgba(6, 11, 95, 0.995);
+    height: 25px;
+    font-size: large;
+}
+#in:focus{
+    border-radius:1px;
+}

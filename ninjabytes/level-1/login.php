@@ -118,7 +118,8 @@ if($ss[0]==$pass){
     ?> 
     <h1>valid authenticator</h1>   
         <button>
-        <a href="http://localhost:3000/"> lets get start</a></button>
+        <a href="http://localhost:3000/">
+        <input type="submit" id="signup" name="signupstart" value="lets"> lets get start</a></button>
      <?php
 }
 else{

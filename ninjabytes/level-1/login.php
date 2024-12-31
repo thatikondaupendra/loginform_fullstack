@@ -117,6 +117,8 @@ if($ss!=NULL){
 if($ss[0]==$pass){
     ?> 
     <h1>valid authenticator</h1>   
+        <button>
+        <a href="http://localhost:3000/"> lets get start</a></button>
      <?php
 }
 else{
